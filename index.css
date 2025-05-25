@@ -15,7 +15,7 @@ body{
 }
 
 img{
-    width: 500px;
+    width: 550px;
     height: auto;
 }
 
@@ -44,6 +44,11 @@ a{
     margin-right: auto;
 }
 
+.header-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
 
 .header-section{
     display: flex;
@@ -51,15 +56,13 @@ a{
     background-color: #1f2937;
     color: #f9faf8;
     align-self: stretch;
-    text-align: center;    
-    padding: 15px 300px;
-    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .header{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .header-content{
@@ -67,7 +70,7 @@ a{
     flex-direction: row;
     gap: 30px;
     align-items: center;
-    /* padding: 15px 64px 15px 64px; */
+    padding: 20px 0;
 }
 
 .left-text{
