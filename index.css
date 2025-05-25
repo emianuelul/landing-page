@@ -15,9 +15,8 @@ body{
 }
 
 img{
-    width: 250px;
+    width: 500px;
     height: auto;
-    display: block;
 }
 
 ul{
@@ -30,6 +29,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 .square{
@@ -52,7 +52,8 @@ a{
     color: #f9faf8;
     align-self: stretch;
     text-align: center;    
-    padding: 15px 64px 15px 64px;
+    padding: 15px 300px;
+    flex-shrink: 1;
 }
 
 .header{
@@ -64,12 +65,15 @@ a{
 .header-content{
     display: flex;
     flex-direction: row;
-    padding: 15px 64px 15px 64px;
+    gap: 30px;
+    align-items: center;
+    /* padding: 15px 64px 15px 64px; */
 }
 
 .left-text{
     display: flex;
     flex-direction: column;
+    margin-right: auto;
 }
 
 .title{
@@ -78,10 +82,23 @@ a{
     font-weight: 900;
     text-align: left;
     word-wrap: break-word;
+    margin: 0;
 }
 
 .hero-text{
+    text-align: left;
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
+.left-text > button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 0;
+    align-self: flex-start;
+    color: #e5e7eb;
+    padding: 5px 15px;
+    font-size: 17px;
 }
 
 .footer{
