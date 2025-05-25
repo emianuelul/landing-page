@@ -152,6 +152,7 @@ a{
     display: flex;
     justify-content: center;
     padding: 50px;
+    flex: 1;
 }
 
 .quote-container{
@@ -189,14 +190,16 @@ a{
 .sign-up-container{
     display: flex;
     flex-direction: row;
+    width: 80%;
     background-color: #3882f6;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 7px;
-    gap: 100px;
     margin: 50px;
     padding: 20px 80px;
+    gap: 10px;
+    flex: 1;
 }
 
 .sign-up-container > button{
@@ -210,6 +213,7 @@ a{
 
 .call-to-action{
     align-self: center;
+    margin-right: auto;
 }
 
 .call-to-action > h3{
